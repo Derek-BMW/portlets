@@ -1524,3 +1524,114 @@ SET AUTOCOMMIT FALSE
 SET AUTOCOMMIT TRUE
 SET AUTOCOMMIT FALSE
 SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.admin.messaging.LDAPImportMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.admin.messaging.LDAPImportMessageListener'
+INSERT INTO QUARTZ_TRIGGERS VALUES('com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener',FALSE,NULL,1342166725527,1342166125527,5,'ACQUIRED','SIMPLE',1342165525527,0,NULL,0,'')
+INSERT INTO QUARTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1342165518401','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener',FALSE,'NON_CLUSTERED',1342166725527,5,'ACQUIRED',NULL,NULL,FALSE,FALSE)
+COMMIT
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1342165518401'
+INSERT INTO QUARTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1342165518401','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener',FALSE,'NON_CLUSTERED',1342166725527,5,'EXECUTING','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener',FALSE,FALSE)
+DELETE FROM QUARTZ_SIMPLE_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.admin.messaging.LDAPImportMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.admin.messaging.LDAPImportMessageListener'
+INSERT INTO QUARTZ_SIMPLE_TRIGGERS VALUES('com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener',-1,600000,3)
+DELETE FROM QUARTZ_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.admin.messaging.LDAPImportMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.admin.messaging.LDAPImportMessageListener'
+INSERT INTO QUARTZ_TRIGGERS VALUES('com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener','com.liferay.portlet.admin.messaging.LDAPImportMessageListener',FALSE,NULL,1342167325527,1342166725527,5,'WAITING','SIMPLE',1342165525527,0,NULL,0,'')
+COMMIT
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.blogs.messaging.LinkbackMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.blogs.messaging.LinkbackMessageListener'
+INSERT INTO QUARTZ_TRIGGERS VALUES('com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,NULL,1342166726069,1342166426069,5,'ACQUIRED','SIMPLE',1342165526069,0,NULL,0,'')
+INSERT INTO QUARTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1342165518402','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,'NON_CLUSTERED',1342166726069,5,'ACQUIRED',NULL,NULL,FALSE,FALSE)
+COMMIT
+SET AUTOCOMMIT TRUE
+/*C35*/SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1342165518401'
+COMMIT
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1342165518402'
+INSERT INTO QUARTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1342165518402','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,'NON_CLUSTERED',1342166726069,5,'EXECUTING','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,FALSE)
+DELETE FROM QUARTZ_SIMPLE_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.blogs.messaging.LinkbackMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.blogs.messaging.LinkbackMessageListener'
+INSERT INTO QUARTZ_SIMPLE_TRIGGERS VALUES('com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',-1,300000,5)
+DELETE FROM QUARTZ_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.blogs.messaging.LinkbackMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.blogs.messaging.LinkbackMessageListener'
+INSERT INTO QUARTZ_TRIGGERS VALUES('com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,NULL,1342167026069,1342166726069,5,'WAITING','SIMPLE',1342165526069,0,NULL,0,'')
+COMMIT
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+/*C50*/SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1342165518402'
+COMMIT
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.blogs.messaging.LinkbackMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.blogs.messaging.LinkbackMessageListener'
+INSERT INTO QUARTZ_TRIGGERS VALUES('com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,NULL,1342167026069,1342166726069,5,'ACQUIRED','SIMPLE',1342165526069,0,NULL,0,'')
+INSERT INTO QUARTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1342165518403','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,'NON_CLUSTERED',1342167026069,5,'ACQUIRED',NULL,NULL,FALSE,FALSE)
+COMMIT
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+SET AUTOCOMMIT TRUE
+SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1342165518403'
+INSERT INTO QUARTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1342165518403','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,'NON_CLUSTERED',1342167026069,5,'EXECUTING','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,FALSE)
+DELETE FROM QUARTZ_SIMPLE_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.blogs.messaging.LinkbackMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.blogs.messaging.LinkbackMessageListener'
+INSERT INTO QUARTZ_SIMPLE_TRIGGERS VALUES('com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',-1,300000,6)
+DELETE FROM QUARTZ_TRIGGERS WHERE TRIGGER_NAME='com.liferay.portlet.blogs.messaging.LinkbackMessageListener' AND TRIGGER_GROUP='com.liferay.portlet.blogs.messaging.LinkbackMessageListener'
+INSERT INTO QUARTZ_TRIGGERS VALUES('com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener','com.liferay.portlet.blogs.messaging.LinkbackMessageListener',FALSE,NULL,1342167326069,1342167026069,5,'WAITING','SIMPLE',1342165526069,0,NULL,0,'')
+COMMIT
+SET AUTOCOMMIT TRUE
+/*C35*/SET AUTOCOMMIT FALSE
+DELETE FROM QUARTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1342165518403'
+/*C50*/SET AUTOCOMMIT FALSE
+/*C35*/COMMIT
+/*C50*/SET AUTOCOMMIT TRUE
+/*C35*/SET AUTOCOMMIT TRUE

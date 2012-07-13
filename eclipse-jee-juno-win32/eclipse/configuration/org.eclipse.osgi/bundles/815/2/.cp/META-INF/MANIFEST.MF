@@ -1,0 +1,97 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.3,CDC-1.1/Foundation-1.1
+Bundle-Name: %Bundle-Name.0
+Bundle-SymbolicName: org.slf4j.api
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.slf4j.api;tag=v20120130-2120
+Export-Package: org.slf4j;version="1.6.4",org.slf4j.helpers;version="1
+ .6.4",org.slf4j.spi;version="1.6.4"
+Bundle-Version: 1.6.4.v20120130-2120
+Bundle-ManifestVersion: 2
+
+Name: org/slf4j/MarkerFactory.class
+SHA1-Digest: 2cVqPPPnaBDoqS7enNHT9ZkcSjI=
+
+Name: org/slf4j/helpers/MarkerIgnoringBase.class
+SHA1-Digest: agAIO/VWsg1iTFLQ69wuzcq7fxU=
+
+Name: org/slf4j/helpers/NOPLogger.class
+SHA1-Digest: zcQ0A6gMdXNEh8QKJx7n+2A8D3g=
+
+Name: org/slf4j/spi/LocationAwareLogger.class
+SHA1-Digest: pS5GdpXWjiKaEZGaJ3gH38Mcw/I=
+
+Name: org/slf4j/helpers/BasicMarkerFactory.class
+SHA1-Digest: mLHzoi4SDVDA4PDtWExvTRxSUd0=
+
+Name: plugin.properties
+SHA1-Digest: xNw4cxqiqSt4CeOMoADbUdz3xqE=
+
+Name: org/slf4j/helpers/BasicMarker.class
+SHA1-Digest: +MUuvlwGAYKhGaovZhFZWME/UGs=
+
+Name: org/slf4j/ILoggerFactory.class
+SHA1-Digest: ni361waH7UtVbZN79DIu/qc86fM=
+
+Name: readme-bundles.txt
+SHA1-Digest: DpNH2WcxUk87jxq7kt9XWO0ou/o=
+
+Name: org/slf4j/spi/LoggerFactoryBinder.class
+SHA1-Digest: Z0hGseUXdukx0Lm/kiGf95DRX4U=
+
+Name: org/slf4j/helpers/BasicMDCAdapter.class
+SHA1-Digest: w9hiG2qAusHcZe0rctbtJpKi6g4=
+
+Name: org/slf4j/Marker.class
+SHA1-Digest: 2RDLrad8R/zoaIDykjE7atCRIHQ=
+
+Name: org/slf4j/helpers/NamedLoggerBase.class
+SHA1-Digest: UYLNHXaCKtO5PJoJBxLz/JrNVe0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/slf4j/spi/MDCAdapter.class
+SHA1-Digest: wPbiXAAkufLv+mp4+umqvlKTTCk=
+
+Name: org/slf4j/IMarkerFactory.class
+SHA1-Digest: aOKJm78/WwI9K2ItIUzSWfF2iho=
+
+Name: org/slf4j/helpers/SubstituteLoggerFactory.class
+SHA1-Digest: nFDdCK63/HZyksFLG10Q5xVjH94=
+
+Name: org/slf4j/spi/MarkerFactoryBinder.class
+SHA1-Digest: j40CXKDTMTUZ54tJ8fiZ6Nf8sKg=
+
+Name: about.html
+SHA1-Digest: 0fM8/K4dMWG7GJFz/3dnIfydQsc=
+
+Name: org/slf4j/helpers/FormattingTuple.class
+SHA1-Digest: jV0nsf/R5jsW+ZCqa9Mjv67vLX8=
+
+Name: org/slf4j/LoggerFactory.class
+SHA1-Digest: lVuamr9kAzjOGQJ3XQzXa4RhdHU=
+
+Name: org/slf4j/helpers/Util.class
+SHA1-Digest: IhUzD3LBAJt88AyRrhc8J+z6+jI=
+
+Name: org/slf4j/helpers/MessageFormatter.class
+SHA1-Digest: euTr3BMAt/svLq8k7NJ0lfDZNjc=
+
+Name: about_files/SLF4J-LICENSE.txt
+SHA1-Digest: U64yX06BQZmT6IlD62m898LvAVY=
+
+Name: org/slf4j/Logger.class
+SHA1-Digest: ju+h2YqZKqRzsqxVVJT9VClr2W8=
+
+Name: org/slf4j/helpers/NOPLoggerFactory.class
+SHA1-Digest: +s+GGsX9nRN8WvICKMEKRD75ZnY=
+
+Name: org/slf4j/helpers/NOPMDCAdapter.class
+SHA1-Digest: jQa/ADa73w0iwfdR8X+7G3TRNKE=
+
+Name: org/slf4j/MDC.class
+SHA1-Digest: RtIagSdI7/HFvWaN4IKLnCZM+HM=
+

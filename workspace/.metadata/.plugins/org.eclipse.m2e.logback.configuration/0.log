@@ -1,0 +1,46 @@
+2012-07-13 12:45:35,654 [Worker-0] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2012-07-13 12:45:35,742 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-07-13 12:45:37,047 [Worker-0] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|http://repo.maven.apache.org/maven2
+java.io.IOException: Network is unreachable: no further information to http://repo.maven.apache.org/maven2/.index/nexus-maven-repository-index.properties
+	at org.eclipse.m2e.core.internal.index.nexus.AsyncFetcher$PipedErrorInputStream.checkError(AsyncFetcher.java:251) ~[org.eclipse.m2e.core_1.1.0.20120530-0009.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.AsyncFetcher$PipedErrorInputStream.read(AsyncFetcher.java:259) ~[org.eclipse.m2e.core_1.1.0.20120530-0009.jar:na]
+	at java.io.PipedInputStream.read(Unknown Source) ~[na:1.6.0_33]
+	at java.io.InputStream.read(Unknown Source) ~[na:1.6.0_33]
+	at java.util.Properties$LineReader.readLine(Unknown Source) ~[na:1.6.0_33]
+	at java.util.Properties.load0(Unknown Source) ~[na:1.6.0_33]
+	at java.util.Properties.load(Unknown Source) ~[na:1.6.0_33]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:457) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:75) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:607) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:788) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1124) [org.eclipse.m2e.core_1.1.0.20120530-0009.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1081) [org.eclipse.m2e.core_1.1.0.20120530-0009.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:658) [org.eclipse.m2e.core_1.1.0.20120530-0009.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:71) [org.eclipse.m2e.core_1.1.0.20120530-0009.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+java.net.ConnectException: Network is unreachable: no further information to http://repo.maven.apache.org/maven2/.index/nexus-maven-repository-index.properties
+	at com.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:95) ~[na:na]
+	at org.jboss.netty.channel.DefaultChannelFuture.notifyListener(DefaultChannelFuture.java:381) ~[na:na]
+	at org.jboss.netty.channel.DefaultChannelFuture.notifyListeners(DefaultChannelFuture.java:372) ~[na:na]
+	at org.jboss.netty.channel.DefaultChannelFuture.setFailure(DefaultChannelFuture.java:334) ~[na:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:389) ~[na:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:354) ~[na:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:276) ~[na:na]
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) ~[na:na]
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:44) ~[na:na]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) ~[na:1.6.0_33]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.6.0_33]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.6.0_33]
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.6.0_33]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source) ~[na:1.6.0_33]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:384) ~[na:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:354) ~[na:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:276) ~[na:na]
+	... 3 common frames omitted
+2012-07-13 12:48:54,537 [Worker-1] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2012-07-13 12:48:54,545 [Worker-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-07-13 12:49:03,540 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\portlets\PiA_sourcecode\ch1_HelloWorld
+2012-07-13 12:49:03,541 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2012-07-13 12:54:21,480 [Worker-1] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|http://repo.maven.apache.org/maven2 in 326943 ms

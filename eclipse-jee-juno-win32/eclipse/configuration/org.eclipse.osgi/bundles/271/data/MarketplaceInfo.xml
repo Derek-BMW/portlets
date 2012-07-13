@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_33" class="java.beans.XMLDecoder"> 
+ <object class="org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo"> 
+  <void property="iuToNodeKey"> 
+   <void method="put"> 
+    <string>org.eclipse.m2e.logback.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#252</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.atmel.avr32.ide</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#873</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.js.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.sse.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.nightlabs.vestigo.log4j.ui.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#293274</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.css.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.xored.q7.module.nebula</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#156392</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.maven.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.atmel.avr.utilities</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#873</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.html.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.dtd.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.nightlabs.vestigo.jdt.ui.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#293274</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.nightlabs.vestigo.maven.ui.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#293274</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.codehaus.groovy.eclipse.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#321859</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.nightlabs.vestigo.cumulus4j.ui.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#293274</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>oracle.eclipse.tools.indigo.oepe.product.feature.group</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#751</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.ant.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.sse.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.xored.q7.platform</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#156392</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.chronon.sb</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#48626</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.atmel.avr.toolchains</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#873</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.atmel.avr32.core</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#873</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.maven.ide.eclipse.wtp.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#96737</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.yattasolutions.umllab</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#19495</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.groovy.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.css.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.nwiresoftware.nwire.php</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#997</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>ch.hsr.ifs.cute.headers.1_7.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#483</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.core.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.codehaus.groovy20.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#321859</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.properties.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.properties.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.xml.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.java.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.js.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.groovy.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.java.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.xml.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.html.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.dtd.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.microsoft.tfs.client.eclipse.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#252148</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.ant.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.eclipse.m2e.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#252</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.core.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>ch.hsr.ifs.cute</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#483</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>timezra.eclipse.codemime.maven.source.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#209564</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.carrotgarden.m2e.scr.feature.feature.group</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#218789</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.nightlabs.vestigo.ui.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#293274</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>0.0.8</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#250606</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.eclipse.persistence.sdk.feature.group</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#3407</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>com.vaadin.integration.eclipse</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1023</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="nodeKeyToIU"> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#252148</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.microsoft.tfs.client.eclipse.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#321859</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.codehaus.groovy20.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.codehaus.groovy.eclipse.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#997</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.nwiresoftware.nwire.php</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#48626</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.chronon.sb</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#96737</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.maven.ide.eclipse.wtp.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#252</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.eclipse.m2e.logback.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.eclipse.m2e.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#3407</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.eclipse.persistence.sdk.feature.group</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#156392</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.xored.q7.platform</string> 
+     </void> 
+     <void method="add"> 
+      <string>com.xored.q7.module.nebula</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#250606</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>0.0.8</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#873</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.atmel.avr32.ide</string> 
+     </void> 
+     <void method="add"> 
+      <string>com.atmel.avr.toolchains</string> 
+     </void> 
+     <void method="add"> 
+      <string>com.atmel.avr32.core</string> 
+     </void> 
+     <void method="add"> 
+      <string>com.atmel.avr.utilities</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#751</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>oracle.eclipse.tools.indigo.oepe.product.feature.group</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#19495</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.yattasolutions.umllab</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#293274</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.nightlabs.vestigo.cumulus4j.ui.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.nightlabs.vestigo.log4j.ui.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.nightlabs.vestigo.ui.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.nightlabs.vestigo.jdt.ui.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.nightlabs.vestigo.maven.ui.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#209564</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.properties.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.js.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.properties.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.sse.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.xml.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.java.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.css.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.js.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.maven.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.groovy.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.html.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.java.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.xml.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.dtd.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.html.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.dtd.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.ant.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.sse.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.ant.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.groovy.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.core.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.css.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.maven.source.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>timezra.eclipse.codemime.core.source.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#1023</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.vaadin.integration.eclipse</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#218789</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.carrotgarden.m2e.scr.feature.feature.group</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#483</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>ch.hsr.ifs.cute</string> 
+     </void> 
+     <void method="add"> 
+      <string>ch.hsr.ifs.cute.headers.1_7.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

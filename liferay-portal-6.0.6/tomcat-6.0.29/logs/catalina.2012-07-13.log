@@ -136,3 +136,53 @@ Jul 13, 2012 7:45:44 AM org.apache.jk.server.JkMain start
 INFO: Jk running ID=0 time=0/36  config=null
 Jul 13, 2012 7:45:44 AM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 42574 ms
+Jul 13, 2012 9:21:40 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\portlets\liferay-portal-6.0.6\tomcat-6.0.29\jre1.6.0_20\win\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Java\jdk1.7.0\bin\;D:\IBM\SQLLIB\BIN;D:\IBM\SQLLIB\FUNCTION;D:\IBM\SQLLIB\SAMPLES\REPL;c:\Program Files (x86)\Java\jdk1.6.0_33\\bin;C:\Program Files (x86)\Graphviz 2.28\bin;C:\Program Files\TortoiseSVN\bin;d:\Programming\maven\bin\;C:\Program Files\TortoiseGit\bin;d:\Programming\ant\\bin;c:\Program Files (x86)\Git\bin\;c:\Program Files (x86)\Java\jdk1.6.0_33\\bin
+Jul 13, 2012 9:21:41 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 13, 2012 9:21:41 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 309 ms
+Jul 13, 2012 9:21:41 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 13, 2012 9:21:41 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.29
+Jul 13, 2012 9:21:41 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor ROOT.xml
+Jul 13, 2012 9:22:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory chat-portlet
+Jul 13, 2012 9:22:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory default-site-templates-hook
+Jul 13, 2012 9:22:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory google-maps-portlet
+Jul 13, 2012 9:22:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory kaleo-web
+Jul 13, 2012 9:22:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory mail-portlet
+Jul 13, 2012 9:22:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory opensocial-portlet
+Jul 13, 2012 9:22:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory sevencogs-hook
+Jul 13, 2012 9:22:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory sevencogs-mobile-theme
+Jul 13, 2012 9:22:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory sevencogs-theme
+Jul 13, 2012 9:22:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory social-networking-portlet
+Jul 13, 2012 9:22:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory tunnel-web
+Jul 13, 2012 9:22:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory web-form-portlet
+Jul 13, 2012 9:22:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory wsrp-portlet
+Jul 13, 2012 9:22:26 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 13, 2012 9:22:26 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 13, 2012 9:22:26 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/38  config=null
+Jul 13, 2012 9:22:26 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 45562 ms
+Jul 13, 2012 9:23:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ch1_HelloWorld
+Jul 13, 2012 9:46:47 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ch1_HelloWorld]

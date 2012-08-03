@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+	<portlet>
+		<portlet-name>depositCalculator</portlet-name>
+		<portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>edit</portlet-mode>
+			<portlet-mode>print</portlet-mode>
+			<portlet-mode>help</portlet-mode>
+		</supports>
+		<resource-bundle>content.Language-ext</resource-bundle>
+		<portlet-info>
+			<title>Deposit Calculator</title>
+		</portlet-info>
+	</portlet>
+
+	<user-attribute>
+		<description>user first name</description>
+		<name>user.name.given</name>
+	</user-attribute>
+	<user-attribute>
+		<description>user last name</description>
+		<name>user.name.family</name>
+	</user-attribute>
+	<user-attribute>
+		<description>user id</description>
+		<name>user.login.id</name>
+	</user-attribute>
+
+	<!-- <filter>
+		<filter-name>interestsFilter</filter-name>
+		<filter-class>ua.com.myjava.depositcalculator.mvc.controller.InterestsFilter</filter-class>
+		<lifecycle>RENDER_PHASE</lifecycle>
+	</filter>
+	<filter-mapping>
+		<filter-name>interestsFilter</filter-name>
+		<portlet-name>depositCalculator</portlet-name>
+	</filter-mapping> -->
+</portlet-app>

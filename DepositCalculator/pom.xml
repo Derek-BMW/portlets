@@ -1,0 +1,264 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ua.com.myjava</groupId>
+	<artifactId>depositcalulator</artifactId>
+	<packaging>war</packaging>
+	<version>1.0</version>
+	<repositories>
+
+		<repository>
+			<id>JBoss Repository</id>
+			<url>http://repository.jboss.com/maven2</url>
+		</repository>
+		<repository>
+			<!-- Please consider setting up your own on-site repository proxy such 
+				as with Nexus and pointing the url element below at that instead - -->
+			<id>oss-sonatype-snapshots</id>
+			<name>OSS Sonatype Snapshots Repository</name>
+			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+
+		</repository>
+	</repositories>
+	<build>
+		<sourceDirectory>${project.basedir}/src</sourceDirectory>
+		<outputDirectory>${project.basedir}/target/classes</outputDirectory>
+		<resources>
+			<resource>
+				<targetPath>content</targetPath>
+				<directory>WEB-INF</directory>
+				<includes>
+					<include>Language-ext.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<targetPath>${project.basedir}/target/classes</targetPath>
+				<directory>${project.basedir}/src</directory>
+				<includes>
+					<include>*.properties</include>
+				</includes>
+			</resource>
+		</resources>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.0.2</version>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>2.1-alpha-2</version>
+					<configuration>
+						<webResources>
+							<resource>
+								<directory>css</directory>
+								<targetPath>css</targetPath>
+							</resource>
+							<resource>
+								<directory>js</directory>
+								<targetPath>js</targetPath>
+							</resource>
+							<resource>
+								<directory>images</directory>
+								<targetPath>images</targetPath>
+							</resource>
+							<resource>
+								<directory>WEB-INF/jsp/</directory>
+								<targetPath>WEB-INF/jsp</targetPath>
+							</resource>
+							<resource>
+								<directory>WEB-INF</directory>
+								<targetPath>WEB-INF</targetPath>
+								<excludes>
+									<exclude>**/Language-ext.properties</exclude>
+								</excludes>
+								<includes>
+									<include>**/*.xml</include>
+									<include>**/*.properties</include>
+								</includes>
+							</resource>
+						</webResources>
+						<webXml>${project.basedir}/WEB-INF/web.xml</webXml>
+						<outputDirectory>d:/portlets/liferay-portal-6.0.6/deploy</outputDirectory>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.5</version>
+					<configuration>
+						<includes>
+							<include>**/*Test*.java</include>
+						</includes>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<dependencies>
+		<!-- Servlets, Portlets -->
+		<dependency>
+			<groupId>javax.portlet</groupId>
+			<artifactId>portlet-api</artifactId>
+			<version>2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.4</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+
+		<!-- Utils -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+
+		<!-- Testing -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.5</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- want to use Javassist as Hibernate's bytecode provider, so we depend 
+			on it here. -->
+		<dependency>
+			<groupId>javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.4.GA</version>
+		</dependency>
+
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${org.hibernate-version}</version>
+			<!-- will come with Hibernate core -->
+		</dependency>
+
+		<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc-portlet</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${org.springframework.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>${org.aspectj-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${org.aspectj-version}</version>
+		</dependency>
+
+
+		<!-- Hibernate Validation -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.2.0.Final</version>
+		</dependency>
+
+
+		<!-- Logging -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.15</version>
+		</dependency>
+		<!-- Ajax -->
+		<dependency>
+			<groupId>org.directwebremoting</groupId>
+			<artifactId>dwr</artifactId>
+			<version>${dwr.version}</version>
+		</dependency>
+		<dependency>
+			<!-- Optional non-CLA components see DWR documentation for details -->
+			<groupId>org.directwebremoting</groupId>
+			<artifactId>dwr</artifactId>
+			<classifier>noncla</classifier>
+			<version>${dwr.version}</version>
+		</dependency>
+	</dependencies>
+	<properties>
+		<org.springframework.version>3.1.1.RELEASE</org.springframework.version>
+		<org.hibernate-version>4.1.2.Final</org.hibernate-version>
+		<org.aspectj-version>1.6.11</org.aspectj-version>
+		<dwr.version>3.0.0-rc3-SNAPSHOT</dwr.version>
+	</properties>
+</project>

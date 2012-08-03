@@ -1,0 +1,13 @@
+<!DOCTYPE dwr PUBLIC  
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"  
+    "http://getahead.org/dwr/dwr30.dtd">
+<dwr>
+	<allow>
+		<create creator="new" javascript="MyAjaxBean">
+			<param name="class" value="ua.com.myjava.depositcalculator.mvc.dwr.AjaxBean" />
+			<include method="addBank" />
+		</create>
+		<convert match="ua.com.myjava.depositcalculator.mvc.util.Message" converter="bean"></convert>
+		<convert match="ua.com.myjava.depositcalculator.model.Bank" converter="bean"></convert>
+	</allow>
+</dwr>
